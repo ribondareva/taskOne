@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+venv/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+.dockerignore
+Dockerfile
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Переменные окружения
+.env
+.env.*
