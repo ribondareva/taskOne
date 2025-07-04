@@ -12,7 +12,12 @@
    ```bash
    cp .env-example .env
    ```
-3. Запустите проект:
+3. Создайте и активируйте виртуальное окружение:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+4. Запустите проект:
    ```bash
    docker-compose up --build
    ```
